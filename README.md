@@ -14,3 +14,5 @@ voxelmorph
 
 
 Main file: dip_main.py.
+
+Results are printed out every 50 epochs. As with DIP, the best results may be before the final iteration.

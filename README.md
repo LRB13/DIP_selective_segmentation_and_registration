@@ -12,3 +12,5 @@ scikit-image
 
 voxelmorph
 
+
+Main file: dip_main.py.

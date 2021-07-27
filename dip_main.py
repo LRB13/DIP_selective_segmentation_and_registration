@@ -196,7 +196,7 @@ for epoch in range(epoch_num):
         BWSeg = seg
         BWSeg[seg>.5]=1
         BWSeg[seg<=.5]=0
-        #BWSeg[0,:,0:96,0]=0
+
         
         BWSegMoved = moved_seg
         BWSegMoved[moved_seg>.5]=1

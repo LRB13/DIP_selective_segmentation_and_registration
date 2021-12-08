@@ -47,7 +47,7 @@ C1 = A1
 #Get geodesic if geodesic not available
 if not 'gd' in locals():
     import geodist
-    gda = geodist.call_geodist(T,n=3,x=None,y=None)
+    gd = geodist.call_geodist(T,n=3,x=None,y=None)
 #PARAMETERS
 
 lambdaP1 = 2 #Fidelity on T

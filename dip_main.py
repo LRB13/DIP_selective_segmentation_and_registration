@@ -70,7 +70,6 @@ def net1loss(y_true,y_pred):
     moved_seg = y_pred[:,:,:,4:5]
     R = y_pred[:,:,:,5:6]
     T = y_pred[:,:,:,6:7]
-    moved_R = y_pred[:,:,:,7:8]
     
 
     CVFit1 = lambdaP1*K.sum(fit_T*seg)
